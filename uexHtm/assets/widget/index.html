@@ -1,0 +1,177 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script type="text/javascript">
+
+    var downloadId;
+    var formUploadId;
+    var startTime;
+    window.uexOnload = function(type){
+        if(type == 0){  
+             //下载回调
+            uexHtm.cbDownloadSuccess=function(args){
+                alert(args);
+            };
+
+            uexHtm.cbDownloadError=function(args){
+                alert(args);
+            };
+
+             uexHtm.cbDownloadProgress=function(totalSize,currentSize,progress,speed){
+               //uexLog.sendLog("totalSize:"+totalSize+" currentSize:"+currentSize+" progress:"+progress+" speed:"+speed);
+            };
+
+            //上传
+            uexHtm.cbUploadSuccess=function(args){
+                alert(args);
+            };
+
+            uexHtm.cbUploadError=function(args){
+                alert(args);
+            };
+
+            uexHtm.cbUploadProgress=function(totalSize,currentSize,progress,speed){
+                //uexLog.sendLog("totalSize:"+totalSize+" currentSize:"+currentSize+" progress:"+progress+" speed:"+speed);
+            };
+
+            //后台上传
+            uexHtm.cbUploadBackgroundSuccess=function(args){
+                alert(args+"耗时："+(new Date().getTime()-startTime));
+            };
+
+            uexHtm.cbUploadBackgroundError=function(args){
+                alert(args);
+            };
+
+            uexHtm.cbUploadBackgroundProgress=function(totalSize,currentSize,progress,speed){
+                //alert("totalSize:"+totalSize+" currentSize:"+currentSize+" progress:"+progress+" speed:"+speed);
+            };
+        }
+    };
+
+    function uploadBatchBackground(){
+        var requestUrl="http://192.168.1.200:8080/app/uploadResources.action";
+        var taskArray=new Array("/storage/emulated/0/aaa/S3_B3.zip");
+        alert(JSON.stringify(taskArray));        startTime=new Date().getTime();
+        uexHtm.uploadBatchBackground(requestUrl,JSON.stringify(taskArray),"file");
+    }
+
+    function cancelUploadTask(){
+        var filePath="/storage/emulated/0/aaa/S1_B1.zip";
+        alert("filePath:"+filePath);
+        uexHtm.cancelUploadTask(filePath);
+    }
+
+
+    function download(){
+        downloadId=uexHtm.createDownloadTag();
+        var requestUrl="http://www.huihuabao.com/appdata/textbook/S2_B1_01Starter%20unit.zip";
+        var savePath="/storage/emulated/0/aaa/S2_B1_01Starter.zip";
+        alert("requestUrl:"+requestUrl+" savePath:"+savePath);
+        uexHtm.download(downloadId,requestUrl,savePath);
+
+    }
+
+
+    function cancelDownload(){
+        alert("downloadId:"+downloadId);
+        uexHtm.cancelDownload(downloadId);
+    }
+
+    function downloadBatchBackground(){
+        var firstTask={requestUrl:"http://192.168.1.200:8080/appdata/textbook/S1_B1.zip",savePath:"/storage/emulated/0/aaa/S1_B1.zip"};
+        var secondTask={requestUrl:"http://192.168.1.200:8080/appdata/textbook/S3_B3.zip",savePath:"/storage/emulated/0/aaa/S3_B3.zip"};
+        var taskArray=new Array();
+        taskArray[0]=firstTask;
+        taskArray[1]=secondTask;
+        alert("params:"+JSON.stringify(taskArray));
+        uexHtm.downloadBatchBackground(JSON.stringify(taskArray));
+    }
+
+    function cancelDownloadTask(){
+        var requestUrl="http://192.168.1.200:8080/appdata/textbook/S1_B1.zip";
+        alert("requestUrl:"+requestUrl);
+        uexHtm.cancelDownloadTask(requestUrl);
+    }
+
+    function formUpload(){
+        formUploadId=uexHtm.createUploadTag();
+        var requestUrl="http://192.168.1.200:8080/app/uploadResources.action";//上传服务路径
+        var fileArr=[{fileName:"pep3上",filePath:"/storage/emulated/0/aaa/S1_B1.zip"},{fileName:"新起点二上",filePath:"/storage/emulated/0/aaa/S3_B3.zip"}];//待上传资源路径
+        var paramMap={userName:"zhangsan",password:"123"};//表单参数
+        alert(JSON.stringify(fileArr));
+        uexHtm.formUpload(formUploadId,requestUrl,JSON.stringify(fileArr),JSON.stringify(paramMap));
+    }
+
+    function cancelFormUpload(){
+        alert("formUploadId:"+formUploadId);
+        uexHtm.cancelFormUpload(formUploadId);
+    }
+
+
+
+
+</script>
+</head>
+
+<body>
+    <div class="tit">uexHtm对象</div>
+        <div class="conbor">
+            <div class="consj">
+                <span>1.后台批量下载接口</span>
+                <!--此接口将打开一个自定义的activity，并获取其操作后的返回值。-->
+                <input class="btn" type="button" value="后台批量下载"
+                       onclick="downloadBatchBackground()"><br>
+
+                <span>2.取消后台批量下载的指定任务</span>
+                <!--此接口将打开一个自定义的activity，并获取其操作后的返回值。-->
+                <input class="btn" type="button" value="取消后台批量下载的指定任务"
+                       onclick="cancelDownloadTask()"><br>
+
+
+                <span>1.下载接口</span>
+                <!--此接口将打开一个自定义的activity，并获取其操作后的返回值。-->
+                <input class="btn" type="button" value="下载"
+                       onclick="download()"><br>
+
+                <span>取消下载接口</span>
+                <!--此接口将打开一个自定义的activity，并获取其操作后的返回值。-->
+                <input class="btn" type="button" value="取消下载接口"
+                       onclick="cancelDownload()"><br>
+
+
+
+                <span>1.表单上传接口</span>
+                <!--此接口将打开一个自定义的activity，并获取其操作后的返回值。-->
+                <input class="btn" type="button" value="表单上传"
+                       onclick="formUpload()">
+                <div id="percentage"></div>
+                <br>
+
+                <span>1.取消表单上传接口</span>
+                <!--此接口将打开一个自定义的activity，并获取其操作后的返回值。-->
+                <input class="btn" type="button" value="取消表单上传接口"
+                       onclick="cancelFormUpload()">
+                <br>
+
+                <span>1.后台批量上传接口</span>
+                <!--此接口将打开一个自定义的activity，并获取其操作后的返回值。-->
+                <input class="btn" type="button" value="后台批量上传"
+                       onclick="uploadBatchBackground()">
+                <br>
+
+
+                <span>1.取消后台批量上传的指定任务</span>
+                <!--此接口将打开一个自定义的activity，并获取其操作后的返回值。-->
+                <input class="btn" type="button" value="取消后台批量上传的指定任务"
+                       onclick="cancelUploadTask()">
+                <br>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

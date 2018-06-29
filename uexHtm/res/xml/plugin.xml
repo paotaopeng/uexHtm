@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uexplugins>
+<plugin
+    className="org.zywx.wbpalmstar.plugin.uexhtm.EUExHtm" uexName="uexHtm" >
+    <method name = "createDownloadTag" />
+    <method name = "download" />
+    <method name = "cancelDownload" />
+    <method name = "downloadBatchBackground" />
+    <method name = "cancelDownloadTask" />
+    <method name = "createUploadTag" />
+    <method name = "formUpload" />
+    <method name = "cancelFormUpload" />
+    <method name = "uploadBatchBackground" />
+    <method name = "cancelUploadTask" />
+    <method name = "insertBatch" />
+</plugin>
+</uexplugins>

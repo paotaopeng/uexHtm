@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\develop\AppCan\AppCanStudioPersonalV4.0\widgetapp\HttpTaskManager\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="D:\develop\AppCan\AppCanStudioPersonalV4.0\widgetapp\HttpTaskManager\app\build\intermediates\pre-dexed\miui\debug\com.android.support-support-media-compat-24.2.1_2d54410c990fa14ef5364c82c55ef7407de2c09a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\develop\AppCan\AppCanStudioPersonalV4.0\widgetapp\HttpTaskManager\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="D:\develop\AppCan\AppCanStudioPersonalV4.0\widgetapp\HttpTaskManager\app\build\intermediates\pre-dexed\miui\debug\internal_impl-24.2.1_bad6f62c4bb5b922ed130227af3713c1b7543896.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\develop\AppCan\AppCanStudioPersonalV4.0\widgetapp\HttpTaskManager\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="D:\develop\AppCan\AppCanStudioPersonalV4.0\widgetapp\HttpTaskManager\app\build\intermediates\pre-dexed\miui\debug\internal_impl-24.2.1_ae895ae92fb8ad884d1f9e8d8b2724f2bda0c7c9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\develop\AppCan\AppCanStudioPersonalV4.0\widgetapp\HttpTaskManager\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="D:\develop\AppCan\AppCanStudioPersonalV4.0\widgetapp\HttpTaskManager\app\build\intermediates\pre-dexed\miui\debug\internal_impl-24.2.1_f0c173b1fdbdc9f1fcc163cf424eb6c10d9ff94a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\develop\AppCan\AppCanStudioPersonalV4.0\widgetapp\HttpTaskManager\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\develop\AppCan\AppCanStudioPersonalV4.0\widgetapp\HttpTaskManager\app\build\intermediates\pre-dexed\miui\debug\com.android.support-support-v4-24.2.1_3d5f602aeca5799014fb8da7a6ebf5b45052840b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.4.1\c7c4f9e35c2fd5900da24f9872e3971801f08ce0\okhttp-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="D:\develop\AppCan\AppCanStudioPersonalV4.0\widgetapp\HttpTaskManager\app\build\intermediates\pre-dexed\miui\debug\okhttp-3.4.1_a3a718343956c6e4d917a53a4fdd4a4dc134cda5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.5\686c608d1805b6d4d425ec4459e88164ffc85870\gson-2.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="686c608d1805b6d4d425ec4459e88164ffc85870">
+        <dex dex="D:\develop\AppCan\AppCanStudioPersonalV4.0\widgetapp\HttpTaskManager\app\build\intermediates\pre-dexed\miui\debug\gson-2.5_d1775ad48bbb63d88951f4da76a944051360b30e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.9.0\f824591a0016efbaeddb8300bee54832a1398cfa\okio-1.9.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="D:\develop\AppCan\AppCanStudioPersonalV4.0\widgetapp\HttpTaskManager\app\build\intermediates\pre-dexed\miui\debug\okio-1.9.0_db0545b090bbd931e1cf6e43202e038727277a7d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\develop\AppCan\AppCanStudioPersonalV4.0\widgetapp\HttpTaskManager\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="D:\develop\AppCan\AppCanStudioPersonalV4.0\widgetapp\HttpTaskManager\app\build\intermediates\pre-dexed\miui\debug\com.android.support-animated-vector-drawable-24.2.1_75ff1fba7195444c98406443fc56eee4c5b5a015.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\develop\AppCan\AppCanStudioPersonalV4.0\widgetapp\HttpTaskManager\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="D:\develop\AppCan\AppCanStudioPersonalV4.0\widgetapp\HttpTaskManager\app\build\intermediates\pre-dexed\miui\debug\com.android.support-support-compat-24.2.1_0242084e5c94fa92539518c3740992b6148ec921.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\develop\AppCan\AppCanStudioPersonalV4.0\widgetapp\HttpTaskManager\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="D:\develop\AppCan\AppCanStudioPersonalV4.0\widgetapp\HttpTaskManager\app\build\intermediates\pre-dexed\miui\debug\com.android.support-support-vector-drawable-24.2.1_caa20c4f4c64300e87f2a43b00cd4a5299a6f8ac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\develop\AppCan\AppCanStudioPersonalV4.0\widgetapp\HttpTaskManager\app\build\intermediates\exploded-aar\HttpTaskManager\taskrunner\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8347f1d4b0cc8deefac5821c32ee1b9f844a1b57">
+        <dex dex="D:\develop\AppCan\AppCanStudioPersonalV4.0\widgetapp\HttpTaskManager\app\build\intermediates\pre-dexed\miui\debug\HttpTaskManager-taskrunner-unspecified_3fd97aa0423946e05fe6b4679e6ce35e1490f063.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\develop\AppCan\AppCanStudioPersonalV4.0\widgetapp\HttpTaskManager\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="D:\develop\AppCan\AppCanStudioPersonalV4.0\widgetapp\HttpTaskManager\app\build\intermediates\pre-dexed\miui\debug\com.android.support-appcompat-v7-24.2.1_1c0d174be35bf886035cb9d9e59e250f91714507.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="D:\develop\AppCan\AppCanStudioPersonalV4.0\widgetapp\HttpTaskManager\app\build\intermediates\pre-dexed\miui\debug\support-annotations-24.2.1_302013ac1b9756137b559b3834435b7206974e54.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\develop\AppCan\AppCanStudioPersonalV4.0\widgetapp\HttpTaskManager\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="D:\develop\AppCan\AppCanStudioPersonalV4.0\widgetapp\HttpTaskManager\app\build\intermediates\pre-dexed\miui\debug\com.android.support-support-core-ui-24.2.1_0b575e11cd40d36f6b9f0a76d880cfbe37c118c0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\develop\AppCan\AppCanStudioPersonalV4.0\widgetapp\HttpTaskManager\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="D:\develop\AppCan\AppCanStudioPersonalV4.0\widgetapp\HttpTaskManager\app\build\intermediates\pre-dexed\miui\debug\com.android.support-recyclerview-v7-24.2.1_37dd7ee5d0efc98de018e6404f4490532e751360.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\develop\AppCan\AppCanStudioPersonalV4.0\widgetapp\HttpTaskManager\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="D:\develop\AppCan\AppCanStudioPersonalV4.0\widgetapp\HttpTaskManager\app\build\intermediates\pre-dexed\miui\debug\com.android.support-support-core-utils-24.2.1_454ad52ba86c00b670fc0058f0d64674b660565d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\develop\AppCan\AppCanStudioPersonalV4.0\widgetapp\HttpTaskManager\app\build\intermediates\exploded-aar\HttpTaskManager\taskwalker\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ce1301997b9dfc0bd5c041f526b4d0c144063c63">
+        <dex dex="D:\develop\AppCan\AppCanStudioPersonalV4.0\widgetapp\HttpTaskManager\app\build\intermediates\pre-dexed\miui\debug\HttpTaskManager-taskwalker-unspecified_e30b36bbb99a71bd4f24852eefe70609ff7ef700.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\7.0.1\d5d13ea991eab0252e3710e5df3d6a9d4b21d461\butterknife-7.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="D:\develop\AppCan\AppCanStudioPersonalV4.0\widgetapp\HttpTaskManager\app\build\intermediates\pre-dexed\miui\debug\butterknife-7.0.1_fc861cbde294a7e4a9efd57936d766cb077b60e2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\develop\AppCan\AppCanStudioPersonalV4.0\widgetapp\HttpTaskManager\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="D:\develop\AppCan\AppCanStudioPersonalV4.0\widgetapp\HttpTaskManager\app\build\intermediates\pre-dexed\miui\debug\com.android.support-design-24.2.1_31d8856bed0c8e1950b86af3fddbd97aedbc0959.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\develop\AppCan\AppCanStudioPersonalV4.0\widgetapp\HttpTaskManager\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="D:\develop\AppCan\AppCanStudioPersonalV4.0\widgetapp\HttpTaskManager\app\build\intermediates\pre-dexed\miui\debug\internal_impl-24.2.1_a1f0e73a42624abc1eaf306464f23fc821ea245b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\develop\AppCan\AppCanStudioPersonalV4.0\widgetapp\HttpTaskManager\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="D:\develop\AppCan\AppCanStudioPersonalV4.0\widgetapp\HttpTaskManager\app\build\intermediates\pre-dexed\miui\debug\internal_impl-24.2.1_8f3ea64d439bfddb5521631c5af8bfa5ece8da93.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\develop\AppCan\AppCanStudioPersonalV4.0\widgetapp\HttpTaskManager\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="D:\develop\AppCan\AppCanStudioPersonalV4.0\widgetapp\HttpTaskManager\app\build\intermediates\pre-dexed\miui\debug\com.android.support-support-fragment-24.2.1_bee73de7e97498bdf3d33e5f9c3b631a7c1145d0.jar" />
+    </item>
+
+</items>

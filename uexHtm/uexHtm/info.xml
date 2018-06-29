@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<uexplugins>
+    <plugin
+        uexName="uexHtm" version="4.0.6" build="0">
+        <info>6:修改下载文件无法断点续传的问题</info>
+        <info>5:下载文件支持重命名</info>
+        <info>4:统一下载路径接口参数</info>
+        <info>3:添加网络状态监控</info>
+        <info>2:添加批量入库方法</info>
+        <info>1:uexHtm插件各接口添加取消方法</info>
+        <info>0:添加uexHtm插件</info>
+    </plugin>
+
+</uexplugins>
